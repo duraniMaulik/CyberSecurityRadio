@@ -20,6 +20,8 @@ while True:
         print("Parse: ")
 
         dictionary = eval(packet)
+        
+        print("dictionary: \n", dictionary, "\n")
 
         value = dictionary['start']
         message = dictionary['after']
